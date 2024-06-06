@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "name": {
+ 
+		"en" : "WHISP Plots",
+		"fr" : "Parcelles WHISP",
+		"pt" : "Parcelas WHISP",
+		"es" : "Parcelas WHISP"
+	},
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Plot 1",
+        "description": "This is the first plot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.99404, 39.75621]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Plot 2",
+        "description": "This is the second plot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.98404, 39.74621]
+      }
+    }
+  ]
+}
